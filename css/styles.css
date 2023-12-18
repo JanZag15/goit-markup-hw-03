@@ -12,9 +12,15 @@ body {
   background-color: white; */
 }
 
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
 ul,
 ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -24,11 +30,20 @@ a {
 button {
   font-family: inherit;
   color: currentColor;
+  background-color: transparent;
   cursor: pointer;
 }
 /* Base styles */
 
 /* Common styles */
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .team-title,
 .ourpotfolio-title {
   color: #2e2f42;
