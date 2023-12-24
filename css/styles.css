@@ -12,7 +12,13 @@ body {
   background-color: white; */
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0;
 }
 
@@ -37,7 +43,7 @@ button {
 
 /* Common styles */
 .container {
-  width: 1158px;
+  width: 1440px;
   padding-left: 15px;
   padding-right: 16px;
   margin-left: auto;
@@ -68,6 +74,7 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .logo-dark {
@@ -80,19 +87,29 @@ button {
 /* Logo styles */
 
 /* Header section */
-/* .header {
-} */
+.header .container {
+  display: flex;
+  justify-content: space-between;
+}
 
-/* .header-nav {
-} */
+.header-nav {
+  display: flex;
+  align-items: center;
+}
 
-/* .header-list {
-} */
+.header-list {
+  display: flex;
+  gap: 40px;
+}
 
 /* .header-item {
 } */
 
 .header-link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+
   color: #2e2f42;
   font-weight: 500;
   line-height: 1.5;
@@ -109,7 +126,16 @@ button {
 }
 
 .contacts {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+
   font-style: normal;
+}
+
+.contacts ul {
+  display: flex;
+  gap: 40px;
 }
 
 /* .contacts-item {
@@ -133,9 +159,16 @@ button {
   background: #2e2f42;
 }
 
+.hero .container {
+  padding-top: 188px;
+  padding-bottom: 292px;
+  padding-left: 472px;
+  padding-right: 472px;
+}
+
 .hero-title {
   width: 496px;
-  margin-bottom: 32px;
+  margin-bottom: 48px;
   text-align: center;
   font-size: 56px;
   font-weight: 700;
@@ -151,6 +184,9 @@ button {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+
+  padding: 16px 32px;
+  border-radius: 4px;
 }
 
 .hero-button:hover,
