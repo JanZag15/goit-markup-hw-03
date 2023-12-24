@@ -326,6 +326,7 @@ img {
 }
 
 .ourpotfolio-item {
+  width: calc((100% - 48px) / 3);
   border: 1px solid var(--CORNFLOWER, #e7e9fc);
   background: var(--WHITE, #fff);
 }
@@ -336,13 +337,19 @@ img {
   height: 300px;
 }
 
+.app-container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
 .ourpotfolio-item-title {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
   padding-left: 16px;
 }
 .ourpotfolio-item-text {
