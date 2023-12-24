@@ -114,6 +114,7 @@ img {
   display: flex;
   justify-content: space-between;
   width: 1158px;
+  padding: 0 15px;
 }
 
 .header-nav {
@@ -161,8 +162,9 @@ img {
   font-style: normal;
 }
 
-.contacts ul {
+.contacts-list {
   display: flex;
+  gap: 40px;
 }
 
 .contacts-item {
