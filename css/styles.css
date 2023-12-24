@@ -75,6 +75,7 @@ button {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
+  margin-left: 156px;
 }
 
 .logo-dark {
@@ -99,11 +100,15 @@ button {
 
 .header-list {
   display: flex;
-  gap: 40px;
 }
 
-/* .header-item {
-} */
+.header-item {
+  margin-right: 40px;
+}
+
+.header-item:last-child {
+  margin-right: 0px;
+}
 
 .header-link {
   display: block;
@@ -135,11 +140,15 @@ button {
 
 .contacts ul {
   display: flex;
-  gap: 40px;
 }
 
-/* .contacts-item {
-} */
+.contacts-item {
+  margin-right: 40px;
+}
+
+.contacts-item:last-child {
+  margin-right: 0px;
+}
 
 .contacts-link {
   color: #434455;
