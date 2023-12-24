@@ -191,11 +191,12 @@ img {
 /* Hero section */
 .hero {
   background: #2e2f42;
-}
-
-.hero .container {
   padding: 188px 0;
 }
+
+/* .hero .container {
+  padding: 188px 0;
+} */
 
 .hero-title {
   max-width: 496px;
