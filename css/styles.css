@@ -329,8 +329,6 @@ img {
 
 .ourpotfolio-item {
   width: calc((100% - 48px) / 3);
-  border: 1px solid var(--CORNFLOWER, #e7e9fc);
-  background: var(--WHITE, #fff);
 }
 
 .ourpotfolio-item-img {
