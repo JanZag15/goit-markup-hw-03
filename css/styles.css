@@ -327,7 +327,7 @@ img {
   column-gap: 24px;
 }
 
-.ourpotfolio-item {
+.ourpotfolio-list .ourpotfolio-item {
   width: calc((100% - 48px) / 3);
 }
 
