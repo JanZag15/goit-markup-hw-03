@@ -315,11 +315,11 @@ img {
 /* Team section */
 
 /* Our Portfolio section */
-.ourpotfolio {
+.ourportfolio {
   padding: 120px 0px;
 }
 
-.ourpotfolio-list {
+.ourportfolio-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -327,7 +327,7 @@ img {
   column-gap: 24px;
 }
 
-.ourpotfolio-list .ourpotfolio-item {
+.ourportfolio-item {
   width: calc((100% - 48px) / 3);
 }
 
